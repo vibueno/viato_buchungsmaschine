@@ -1,6 +1,7 @@
 @import '../../variables.scss';
 
 .booking-panel {
+  display: flex;
   margin: 32px 62px 0 62px;
-  background-color: $color-white;
+  background-color: $color-grey-4;
 }
