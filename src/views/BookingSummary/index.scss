@@ -10,6 +10,7 @@
 }
 
 .booking-summary-title {
+  @extend h3;
   @extend .text-underlined;
 }
 
