@@ -4,6 +4,7 @@
 .booking-tabs {
   display: flex;
   flex: 1 1 100%;
+  min-width: 100%;
   height: 20%;
 
   & .booking-tab {

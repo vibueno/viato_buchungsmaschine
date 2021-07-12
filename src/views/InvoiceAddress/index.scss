@@ -1,1 +1,23 @@
+@import '../../index.scss';
 @import '../../variables.scss';
+
+.invoice-address-panel {
+  display: flex;
+  flex: 1 1 100%;
+  flex-direction: column;
+
+  & .label-group {
+    @extend h5;
+    display: flex;
+    max-width: 25%;
+  }
+
+  & .field-group {
+    display: flex;
+    max-width: 70%;
+
+    & input {
+      display: flex;
+    }
+  }
+}

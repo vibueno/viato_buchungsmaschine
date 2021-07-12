@@ -12,7 +12,7 @@ const BookingTabs = () => (
         <a href="">2. Verfügbare Zimmer</a>
       </div>
       <div className="booking-tab">
-        <a href="">3. Kontaktdaten</a>
+        <a href="">3. Rechnungsadresse</a>
       </div>
     </div>
   </>
