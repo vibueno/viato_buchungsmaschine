@@ -1,5 +1,53 @@
-$color-lila: #6f2ed6;
+@import './variables.scss';
 
-body {
-  color: $color-lila;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font: 400 28px/34px Montserrat, Arial, Helvetica;
+  letter-spacing: 0;
+  color: $color-red;
+}
+
+h2 {
+  font: 400 28px/34px Montserrat, Arial, Helvetica;
+  letter-spacing: 0;
+  color: $color-grey-1;
+}
+
+h3 {
+  font: 400 18px/22px Montserrat, Arial, Helvetica;
+  letter-spacing: 0;
+  color: $color-grey-1;
+}
+
+h4 {
+  font: 400 16px/19px Montserrat, Arial, Helvetica;
+  letter-spacing: 0;
+  color: $color-grey-1;
+}
+
+h5 {
+  font: 600 14px/19px 'Open Sans', Arial, Helvetica;
+  letter-spacing: 0;
+}
+
+.text-user-input {
+  font: 400 14px/19px 'Open Sans', Arial, Helvetica;
+  letter-spacing: 0;
+}
+
+.text-notification {
+  font: 400 14px/19px 'Open Sans', Arial, Helvetica;
+  letter-spacing: 0;
+}
+
+.text-btn {
+  font: 600 14px/19px 'Open Sans', Arial, Helvetica;
+  letter-spacing: 0;
 }
