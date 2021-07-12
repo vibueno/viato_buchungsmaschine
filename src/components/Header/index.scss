@@ -1,1 +1,12 @@
 @import '../../variables.scss';
+
+header {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  background-color: $color-white;
+}
+
+.title-container {
+  flex: 75%;
+}

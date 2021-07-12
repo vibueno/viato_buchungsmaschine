@@ -1,6 +1,12 @@
 import React from 'react';
 
+import Main from './views/Main';
+
 import './index.scss';
 
-const App = () => <>React hello World!</>;
+const App = () => (
+  <>
+    <Main />
+  </>
+);
 export default App;
