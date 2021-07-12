@@ -2,22 +2,20 @@
 @import '../../variables.scss';
 
 .invoice-address-panel {
-  display: flex;
-  flex: 1 1 100%;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 1em;
 
   & .label-group {
     @extend h5;
     display: flex;
-    max-width: 25%;
+    align-items: center;
   }
 
   & .field-group {
     display: flex;
+    align-items: center;
     max-width: 70%;
-
-    & input {
-      display: flex;
-    }
   }
 }
