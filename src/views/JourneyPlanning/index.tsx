@@ -2,6 +2,6 @@ import React from 'react';
 
 import './index.scss';
 
-const ContactDetails = () => <></>;
+const JourneyPlanning = () => <></>;
 
-export default ContactDetails;
+export default JourneyPlanning;
