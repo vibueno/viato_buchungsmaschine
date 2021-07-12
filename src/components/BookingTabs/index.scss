@@ -1,1 +1,21 @@
+@import '../../index.scss';
 @import '../../variables.scss';
+
+.booking-tabs {
+  display: flex;
+  flex: 1 1 100%;
+  height: 20%;
+
+  & .booking-tab {
+    flex: 1 1 33.33%;
+
+    & a {
+      @extend h3;
+      text-decoration: none;
+
+      &:active {
+        @extend .text-underlined;
+      }
+    }
+  }
+}
