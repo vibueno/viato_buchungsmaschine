@@ -4,7 +4,9 @@ import './index.scss';
 
 const BookingSummary = () => (
   <>
-    <div className="booking-summary">Ihre Auswahl</div>
+    <div className="booking-summary ">
+      <span className="text-underlined">Ihre Auswahl</span>
+    </div>
   </>
 );
 
