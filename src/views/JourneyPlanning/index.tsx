@@ -1,7 +1,15 @@
 import React from 'react';
 
+import JourneyDates from '../../components/JourneyDates';
+import Guests from '../../components/Guests';
+
 import './index.scss';
 
-const JourneyPlanning = () => <></>;
+const JourneyPlanning = () => (
+  <>
+    <JourneyDates />
+    <Guests />
+  </>
+);
 
 export default JourneyPlanning;
