@@ -1,13 +1,13 @@
 import React from 'react';
 
-import AvailableRooms from '../AvailableRooms';
+import BookingDetails from '../BookingDetails';
 import BookingSummary from '../BookingSummary';
 
 import './index.scss';
 
 const BookingPanel = () => (
   <div className="booking-panel">
-    <AvailableRooms />
+    <BookingDetails />
     <BookingSummary />
   </div>
 );
