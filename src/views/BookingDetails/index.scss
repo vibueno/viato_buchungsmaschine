@@ -2,7 +2,7 @@
 
 .booking-details {
   display: flex;
-  flex-wrap: wrap;
-  flex: 1 0 75%;
+  flex-direction: column;
+  flex-grow: stretch;
   padding: 23px 22px 19px 28px;
 }

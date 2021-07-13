@@ -1,1 +1,26 @@
+@import '../../index.scss';
 @import '../../variables.scss';
+
+.btn-room-option {
+  @extend .btn;
+  align-self: flex-end;
+  width: 130px;
+  height: 41px;
+  color: $color-white;
+  background-color: $color-grey-1;
+}
+
+.room-option {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  padding: 0 0 0 1em;
+  height: 43px;
+}
+
+.room-option-btn-container {
+  display: flex;
+  justify-content: flex-end;
+}

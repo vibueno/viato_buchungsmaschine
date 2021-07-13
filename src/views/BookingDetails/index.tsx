@@ -1,7 +1,7 @@
 import React from 'react';
 
 import BookingTabs from '../../components/BookingTabs';
-import InvoiceAddress from '../../views/InvoiceAddress';
+import AvailableRooms from '../AvailableRooms';
 
 import './index.scss';
 
@@ -9,7 +9,7 @@ const BookingDetails = () => (
   <>
     <div className="booking-details">
       <BookingTabs />
-      <InvoiceAddress />
+      <AvailableRooms />
     </div>
   </>
 );

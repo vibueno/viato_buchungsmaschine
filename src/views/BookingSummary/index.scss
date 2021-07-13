@@ -19,11 +19,6 @@
   align-self: flex-end;
 }
 
-.btn {
-  border: none;
-  cursor: pointer;
-}
-
 .btn-next {
   @extend .btn;
   flex: 1 1 60%;

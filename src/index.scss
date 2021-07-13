@@ -49,11 +49,17 @@ h5 {
 .text-user-input {
   font: 400 14px/19px 'Open Sans', Arial, Helvetica;
   letter-spacing: 0;
+  color: $color-grey-1;
 }
 
 .text-notification {
   font: 400 14px/19px 'Open Sans', Arial, Helvetica;
   letter-spacing: 0;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
 }
 
 .text-btn {
