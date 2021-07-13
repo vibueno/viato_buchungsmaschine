@@ -4,6 +4,7 @@
 .booking-tabs {
   display: flex;
   flex: 1 1 100%;
+  margin: 0 0 1.5em 0;
   min-width: 100%;
   height: 20%;
 
@@ -14,7 +15,7 @@
       @extend h3;
       text-decoration: none;
 
-      &:active {
+      &:focus {
         @extend .text-underlined;
       }
     }
